@@ -17,9 +17,11 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="home">
   <a href="signout.php">Sign Out</a>
  <h1>This is the index Page</h1>  
  <br>
  Hello, Username.
+ </div>
 </body>
 </html>

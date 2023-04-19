@@ -4,8 +4,6 @@
   include("connect.php");
   include("functions.php");
 
-  
-
 ?>
 
 <!DOCTYPE html>
