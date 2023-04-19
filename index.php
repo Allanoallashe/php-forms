@@ -21,7 +21,7 @@
   <a href="signout.php">Sign Out</a>
  <h1>This is the index Page</h1>  
  <br>
- Hello, Username.
+ Hello, <?php echo $user_data['user_name']; ?>
  </div>
 </body>
 </html>

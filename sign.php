@@ -9,6 +9,13 @@
     $user_name = $_POST['user_name'];
     $password = $_POST['password'];
     if(!empty($user_name) && !empty($password) && !is_numeric($user_name)){
+      // save to database
+      $user_id = random_num(25);
+      $query = "insert into user (user_id,user_name,password) values('$user_id','$user_name','$password')";
+
+      mysqli_query($con,$query);
+      header("Location: log.php");
+      die;
 
     }else{
       echo "Fill in the Required Fields!";
